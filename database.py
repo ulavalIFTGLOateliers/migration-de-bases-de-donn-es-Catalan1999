@@ -20,6 +20,8 @@ class Database:
         self.password = os.environ.get('PASSWORD')
 
 
+
+
         self._open_sql_connection()
 
         self.migration_counter = 0
